@@ -14,4 +14,27 @@
   width: 325px;
   height: 440px;
   border: 2px solid white;
+}
+.card h2 {
+  color: #eeefed;
+}
+.card p {
+  width: 75%;
+}
+.card button {
+  border: 12px solid #eeefed;
+  width: 45%;
+  border-radius: 50px;
+}
+
+#sedan {
+  background-color: #e28629;
+}
+
+#suv {
+  background-color: #30838c;
+}
+
+#luxary {
+  background-color: #085a5a;
 }/*# sourceMappingURL=style.css.map */

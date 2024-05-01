@@ -12,4 +12,30 @@
     width: 325px;
     height: 440px;
     border: 2px solid white;
+    h2{
+        color: $primaryColor;
+    }
+    p{
+        width: 75%;
+    }
+    button{
+        border: 12px solid $primaryColor;
+        width: 45%;
+        border-radius: 50px;
+    }
+
+
 }
+
+#sedan{
+    background-color: $sedanPrimaryColor;
+}
+
+#suv{
+    background-color: $suvPrimaryColor;
+}
+
+#luxary {
+    background-color: $luxaryPrimaryColor;
+}
+
