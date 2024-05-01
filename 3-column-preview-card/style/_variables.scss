@@ -1,0 +1,18 @@
+// Card Colors
+$suvPrimaryColor:  #30838c;
+$sedanPrimaryColor: #e28629;
+$luxaryPrimaryColor: #085a5a;
+
+// Text Color
+$primaryColor: #eeefed;
+$sedanTextColor: #faca6a;
+$suvTextColor: #4cb0b9;
+$luxaryTextColor: #24b790; 
+
+// Card style
+@mixin flexCenter () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

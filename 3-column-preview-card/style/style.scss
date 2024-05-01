@@ -1,0 +1,15 @@
+// Imports
+@import "./variables";
+
+
+.container{
+    @include flexCenter();
+    background-color: $primaryColor;
+}
+// Card
+.card {
+    @include flexCenter();
+    width: 325px;
+    height: 440px;
+    border: 2px solid white;
+}
