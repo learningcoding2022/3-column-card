@@ -1,10 +1,15 @@
 // Imports
 @import "./variables";
 
+body{
+    background-color: $primaryColor;
+
+}
 
 .container{
     @include flexCenter();
-    background-color: $primaryColor;
+    // border: 2px solid white;
+    // border-radius: 15px
 }
 // Card
 .card {
@@ -49,6 +54,8 @@
 
 #sedan{
     background-color: $sedanPrimaryColor;
+    border-radius: 10px 10px 0 0;
+
     p{
         color: $sedanTextColor;
     }
@@ -80,6 +87,8 @@
 
 #luxary {
     background-color: $luxaryPrimaryColor;
+    border-radius: 0 0 10px 10px;
+
     p{
         color: $luxaryTextColor;
     }
@@ -93,3 +102,31 @@
     }
 }
 
+.attribution{
+    margin-top: 50px;
+}
+/* ==========================================================================
+    Desktop
+========================================================================== */
+
+@media only screen and (min-width: 1200px) {
+    /*Desktop Styles here*/
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        .card {
+            width: 305px;
+            height: 500px;
+        }
+        #sedan{
+            border-radius: 10px 0 0 10px;
+        }
+        #luxary{
+            border-radius: 0 10px 10px 0;
+
+        }
+    }
+
+
+}

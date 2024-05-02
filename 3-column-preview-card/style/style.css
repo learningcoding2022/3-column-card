@@ -1,9 +1,12 @@
+body {
+  background-color: #eeefed;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #eeefed;
 }
 
 .card {
@@ -48,6 +51,7 @@
 
 #sedan {
   background-color: #e28629;
+  border-radius: 10px 10px 0 0;
 }
 #sedan p {
   color: #f4dcae;
@@ -78,6 +82,7 @@
 
 #luxary {
   background-color: #085a5a;
+  border-radius: 0 0 10px 10px;
 }
 #luxary p {
   color: #24b790;
@@ -89,4 +94,30 @@
   border: 1px solid #eeefed;
   background-color: #085a5a;
   color: #eeefed;
+}
+
+.attribution {
+  margin-top: 50px;
+}
+
+/* ==========================================================================
+    Desktop
+========================================================================== */
+@media only screen and (min-width: 1200px) {
+  /*Desktop Styles here*/
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .container .card {
+    width: 305px;
+    height: 500px;
+  }
+  .container #sedan {
+    border-radius: 10px 0 0 10px;
+  }
+  .container #luxary {
+    border-radius: 0 10px 10px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
