@@ -11,31 +11,64 @@
     @include flexCenter();
     width: 325px;
     height: 440px;
-    border: 2px solid white;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+
+    .car-icon{
+        width: 75%;
+        display: flex;  
+    }
+
     h2{
         color: $primaryColor;
+        display: flex;
+        width: 75%;
+        text-transform: uppercase;
+        font-size: 35px;
+        font-weight: 500;
     }
     p{
         width: 75%;
+        padding-bottom: 20px;
+        margin-top: 0;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
     }
     button{
         border: 12px solid $primaryColor;
         width: 45%;
         border-radius: 50px;
+        
     }
-
-
 }
 
 #sedan{
     background-color: $sedanPrimaryColor;
+    p{
+        color: $sedanTextColor;
+    }
+    button{
+        color: $sedanPrimaryColor;
+    }
+
 }
 
 #suv{
     background-color: $suvPrimaryColor;
+    p{
+        color: $suvTextColor;
+    }
+    button{
+        color: $suvPrimaryColor;
+    }
 }
 
 #luxary {
     background-color: $luxaryPrimaryColor;
+    p{
+        color: $luxaryTextColor;
+    }
+    button{
+        color: $luxaryPrimaryColor;
+    }
 }
 

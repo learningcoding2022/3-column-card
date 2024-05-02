@@ -13,13 +13,26 @@
   flex-direction: column;
   width: 325px;
   height: 440px;
-  border: 2px solid white;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+}
+.card .car-icon {
+  width: 75%;
+  display: flex;
 }
 .card h2 {
   color: #eeefed;
+  display: flex;
+  width: 75%;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 500;
 }
 .card p {
   width: 75%;
+  padding-bottom: 20px;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
 }
 .card button {
   border: 12px solid #eeefed;
@@ -30,11 +43,29 @@
 #sedan {
   background-color: #e28629;
 }
+#sedan p {
+  color: #f4dcae;
+}
+#sedan button {
+  color: #e28629;
+}
 
 #suv {
   background-color: #30838c;
 }
+#suv p {
+  color: #4cb0b9;
+}
+#suv button {
+  color: #30838c;
+}
 
 #luxary {
   background-color: #085a5a;
+}
+#luxary p {
+  color: #24b790;
+}
+#luxary button {
+  color: #085a5a;
 }/*# sourceMappingURL=style.css.map */
