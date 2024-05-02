@@ -9,6 +9,9 @@ $sedanTextColor: #f4dcae;
 $suvTextColor: #4cb0b9;
 $luxaryTextColor: #24b790; 
 
+// Border
+$thinBorder: 1px solid $primaryColor;
+
 // Card style
 @mixin flexCenter () {
     display: flex;
