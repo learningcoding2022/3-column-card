@@ -8,8 +8,8 @@ body{
 
 .container{
     @include flexCenter();
-    // border: 2px solid white;
-    // border-radius: 15px
+    margin: 80px 0;
+    
 }
 // Card
 .card {
@@ -115,6 +115,7 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: row;
+        margin: 170px 250px;
         .card {
             width: 305px;
             height: 500px;
