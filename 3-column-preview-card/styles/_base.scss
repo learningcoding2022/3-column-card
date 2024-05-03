@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Fjalla+One&display=swap');
+
+/* reset styles */
+* {
+    color: inherit;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Poppins;
+  }
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px dotted #efefef;
+  }
+  
+  img {
+    max-width: 100%;
+  }
