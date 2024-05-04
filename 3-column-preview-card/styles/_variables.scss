@@ -3,6 +3,32 @@ $c-white: #FFFFFF;
 $c-orange: #e48425;
 $c-teal: #006670;
 $c-dark-teal: #003f3e;
+$c-transparent: transparent;
+
+//dark color scheme
+
+@mixin cs-dark() {
+    //background colors
+    --c-background-primary: #{$c-orange};
+    --c-background-secondary: #{$c-teal};
+    --c-background-tertiary: #{$c-dark-teal};
+    //text colors
+    --c-text-primary: #{c-white};
+    
+    //primary button
+    --c-button-primary: transparent;
+    --c-button-primary-text: #{c-white};
+    --c-button-primary-border: #{c-white};
+}
+    
+@mixin cs-dark--primary() {
+
+}
+
+   
+
+
+}
 
 //spacing
 $base-padding:
