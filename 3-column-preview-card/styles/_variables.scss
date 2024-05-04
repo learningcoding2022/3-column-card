@@ -5,36 +5,46 @@ $c-teal: #006670;
 $c-dark-teal: #003f3e;
 $c-transparent: transparent;
 
-//dark color scheme
+//background colors
+$c-background-sedan: #{$c-orange};
+$c-background-suv: #{$c-teal};
+$c-background-luxary: #{$c-dark-teal};
 
-@mixin cs-dark() {
-    //background colors
-    --c-background-primary: #{$c-orange};
-    --c-background-secondary: #{$c-teal};
-    --c-background-tertiary: #{$c-dark-teal};
-    //text colors
-    --c-text-primary: #{c-white};
-    
-    //primary button
-    --c-button-primary: transparent;
-    --c-button-primary-text: #{c-white};
-    --c-button-primary-border: #{c-white};
-}
-    
-@mixin cs-dark--primary() {
+//primary button
+$c-button-primary: #{transparent};
+$c-button-primary-text: #{c-white};
+$c-button-primary-border: #{c-white};
 
-}
+//button text
+$c-button1: #{$c-orange};
+$c-button2: #{$c-teal};
+$c-button3: #{$c-dark-teal};
 
-   
-
-
+@mixin button {
+background-color: white;
+border: 2px solid white;
 }
 
-//spacing
-$base-padding:
-$base-margin:
+@mixin sedanTheme {
+    color: #FFFFFF;
+    background-color: $c-background-sedan;
+    button {
+        color: $c-button1;
+    }
+}
 
-//borders
-$base-border-thickness:
-$base-border-radius: 
+@mixin suvTheme {
+    color: #FFFFFF;
+    background-color: #{$c-teal};
+    button {
+        color: $c-button2;
+    }
+}
 
+@mixin luxaryTheme {
+    color: #FFFFFF;
+    background-color: #{$c-dark-teal};
+    button {
+        color: $c-button3;
+    }
+}

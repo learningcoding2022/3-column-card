@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#sedan {
+  color: #FFFFFF;
+  background-color: #e48425;
+}
+#sedan button {
+  color: #e48425;
+}
+
+#suv {
+  color: #FFFFFF;
+  background-color: #006670;
+}
+#suv button {
+  color: #006670;
+}
+
+#luxary {
+  color: #FFFFFF;
+  background-color: #003f3e;
+}
+#luxary button {
+  color: #003f3e;
+}
+
+button {
+  background-color: white;
+  border: 2px solid white;
+}/*# sourceMappingURL=main.css.map */
