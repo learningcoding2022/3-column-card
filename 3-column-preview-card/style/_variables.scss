@@ -1,18 +1,50 @@
-// Card Colors
-$suvPrimaryColor:  #30838c;
-$sedanPrimaryColor: #e28629;
-$luxaryPrimaryColor: #085a5a;
+//theme colors
+$c-white: #FFFFFF;
+$c-orange: #e48425;
+$c-teal: #006670;
+$c-dark-teal: #003f3e;
+$c-transparent: transparent;
 
-// Text Color
-$primaryColor: #eeefed;
-$sedanTextColor: #f4dcae;
-$suvTextColor: #4cb0b9;
-$luxaryTextColor: #24b790; 
+//background colors
+$c-background-sedan: #{$c-orange};
+$c-background-suv: #{$c-teal};
+$c-background-luxary: #{$c-dark-teal};
 
-// Card style
-@mixin flexCenter () {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+//primary button
+$c-button-primary: #{transparent};
+$c-button-primary-text: #{c-white};
+$c-button-primary-border: #{c-white};
+
+//button text
+$c-button1: #{$c-orange};
+$c-button2: #{$c-teal};
+$c-button3: #{$c-dark-teal};
+
+@mixin button {
+background-color: white;
+border: 2px solid white;
+}
+
+@mixin sedanTheme {
+    color: #FFFFFF;
+    background-color: $c-background-sedan;
+    button {
+        color: $c-button1;
+    }
+}
+
+@mixin suvTheme {
+    color: #FFFFFF;
+    background-color: #{$c-teal};
+    button {
+        color: $c-button2;
+    }
+}
+
+@mixin luxaryTheme {
+    color: #FFFFFF;
+    background-color: #{$c-dark-teal};
+    button {
+        color: $c-button3;
+    }
 }
