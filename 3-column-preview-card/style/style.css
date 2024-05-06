@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
   text-align: left;
   padding: 15px;
 }
@@ -11,7 +12,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
   text-align: left;
   height: 350px;
   padding: 40px;
@@ -20,6 +20,9 @@
 #sedan {
   color: #FFFFFF;
   background-color: #e48425;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 #sedan button {
   color: #e48425;
@@ -28,6 +31,9 @@
 #suv {
   color: #FFFFFF;
   background-color: #006670;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 #suv button {
   color: #006670;
@@ -36,6 +42,9 @@
 #luxary {
   color: #FFFFFF;
   background-color: #003f3e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 #luxary button {
   color: #003f3e;
@@ -44,7 +53,17 @@
 button {
   background-color: white;
   border: 2px solid white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.25em;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
 }
 
 p {
