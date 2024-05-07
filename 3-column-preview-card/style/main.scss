@@ -1,0 +1,52 @@
+//imports
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "./variables";
+@import "./components";
+
+.container {
+@include flexCenter();
+padding: 15px;
+};
+
+.card {
+@include flexCenter();
+@include primary-text();
+height: 380px;
+padding: 40px;
+};
+
+
+#sedan {
+@include sedanTheme();
+
+}
+
+#suv {
+@include suvTheme();
+}
+
+#luxary {
+@include luxaryTheme();
+}
+
+//elements
+button {
+@include button();
+font-size: 1.25em;
+}
+
+h2 {
+font-size: 2em;
+@include secondary-text();
+margin: 30px 0px 30px 0px;
+}
+
+p {
+font-size: 1.25em;
+margin: 0px 0px 30px 0px;
+}
+
+
+
+
