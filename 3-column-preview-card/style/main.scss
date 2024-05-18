@@ -16,6 +16,12 @@ height: 380px;
 padding: 40px;
 };
 
+.card-icon {
+    @include mq('lg') {
+    width: 30%;
+    }
+}
+
 
 #sedan {
 @include sedanTheme();
@@ -40,6 +46,11 @@ h2 {
 font-size: 2em;
 @include secondary-text();
 margin: 30px 0px 30px 0px;
+
+    @include mq('lg') {
+        width: 100%;
+        text-align: center;
+}
 }
 
 p {
@@ -53,14 +64,10 @@ margin: 0px 0px 30px 0px;
 .container {
 display: flex;
 flex-direction: row;
-
 };
     
 .card {
-display: flex;
-flex-direction: row;
-justify-content: center;
-flex-wrap: wrap;
+@include flexDesk();
 @include primary-text();
 height: 500px;
 width: 300px;
