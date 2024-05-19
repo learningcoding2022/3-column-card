@@ -17,7 +17,7 @@ padding: 40px;
 };
 
 .card-icon {
-    @include mq('lg') {
+    @media(min-width: 1200px) {
     width: 30%;
     }
 }
@@ -47,11 +47,12 @@ font-size: 2em;
 @include secondary-text();
 margin: 30px 0px 30px 0px;
 
-    @include mq('lg') {
+    @media(min-width: 1200px) {
         width: 100%;
         text-align: center;
+    }
 }
-}
+
 
 p {
 font-size: 1.25em;
